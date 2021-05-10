@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14x;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#phones {
+    width: 40%;
+}
+
+#phones img {
+    border-radius: 38px;
+    
+}
+
+#phone-one {
+    position: absolute;
+    left: 310px;
+    top: 50px;
+}
+
+#phone-two {
+    position: absolute;
+    left: 410px;
+    top: 60px;
+   
+}
+
+#options-instagram {
+    width: 30%;
+    min-height: 20rem;
+    width: 370px;
+    position: absolute;
+    right: 340px;
+    top: 90px;
+    background-color: white;
+}
+
+#logo img {
+    width: 40%;
+    height: 8rem;
+    
+}
+
+#logo {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid #ebe1e1;
+    border-bottom: none;
+}
+
+
+.users {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    border: 1px solid #ebe1e1;
+    padding-top: 5px;
+    
+}
+.users img {
+    max-width: 20%;
+    border-radius: 50%;
+    max-height: 3rem;
+    
+}
+
+#user-luana {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#user-serginho {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+
+
+.users button {
+    position: absolute;
+    right: 10px;
+    border: 1px solid;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bolder;
+}
+
+.users span {
+    padding-left: 10px;
+}
+
+#manager-counts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border: 1px solid #ebe1e1;
+    border-top: none;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.options-download {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url(img/app-store-button.png);
+}
+
+.app-download:nth-child(2) {
+    background-image: url(img/google-play-button.png);
+}
+
+#signup {
+    height: 5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid #ebe1e1;
+    margin-top: 10px;
+}
+
+.blue-link a {
+    color: #0096f6;
+}
+
+/*media queries*/
+
+@media (max-width: 1024px) {
+    #instagram-container {
+        width: 100%;
+    }
+
+    #phones {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    #instagram-container {
+        width: 100%;
+    }
+
+    #phones {
+        display: none;
+    }
+
+    #options-instagram {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
